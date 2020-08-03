@@ -5,12 +5,13 @@ package com.example.ka.googlemapapi.model
 //    private String username;
 //    private String avatar;
 
-class User private constructor(val email: String?,
-                               val userId: String?,
-                               val userName : String?,
-                               val avatar: String?){
+class User private constructor(
+    var email: String?,
+    var userId: String?,
+    var userName : String?,
+    val avatar: String?){
 
-    data class Builder(
+    public data class Builder(
         var email: String? = null,
         var userId: String?= null,
         var userName : String? = null,

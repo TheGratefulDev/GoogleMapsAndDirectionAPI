@@ -40,7 +40,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         register_link_tv.setOnClickListener {
-            val intent = Intent(this@LoginActivity, com.example.ka.googlemapapi.ui.MainActivity::class.java)
+            val intent = Intent(this@LoginActivity, RegisterActivity::class.java)
             startActivity(intent)
         }
     }
